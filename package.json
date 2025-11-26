@@ -1,0 +1,20 @@
+{
+  "name": "micro-services",
+  "version": "2.1.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "Dale Tech",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "googleapis": "105",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "megajs": "1",
+    "moment": "^2.29.4"
+  }
+}
