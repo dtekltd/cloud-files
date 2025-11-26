@@ -8,9 +8,7 @@ COPY package*.json ./
 RUN npm install
 
 # Bundle app source
-COPY runtime .
-COPY src .
-COPY index.js .
+COPY . .
 
 EXPOSE 3000
 

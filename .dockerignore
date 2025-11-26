@@ -1,0 +1,21 @@
+# Git and CI/CD
+.git
+.gitignore
+.github/
+
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# OS / editor files
+.DS_Store
+*.swp
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Tests / local configs (optional)
+coverage
+.env
